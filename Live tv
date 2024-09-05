@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RS LIVE TV</title>
+    <style>
+        body {
+            background-color: #000;
+            color: #fff;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%;
+            height: 0;
+            overflow: hidden;
+        }
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        .channel-list {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+        .channel-logo {
+            width: 50px;
+            height: 50px;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 0.8em;
+        }
+        .telegram-button {
+            display: block;
+            background-color: #0088cc;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            text-decoration: none;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>RS LIVE TV</h1>
+        
+        <div class="video-container">
+            <iframe src="https://www.youtube.com/embed/live_stream?channel=CHANNEL_ID" frameborder="0" allowfullscreen></iframe>
+        </div>
+        
+        <div class="channel-list">
+            <img src="channel1-logo.png" alt="Channel 1" class="channel-logo">
+            <img src="channel2-logo.png" alt="Channel 2" class="channel-logo">
+            <img src="channel3-logo.png" alt="Channel 3" class="channel-logo">
+            <img src="channel4-logo.png" alt="Channel 4" class="channel-logo">
+            <img src="channel5-logo.png" alt="Channel 5" class="channel-logo">
+        </div>
+        
+        <div class="footer">
+            © Copyright 2024 || Rubel Ahmed || Developed By: RS Live Tv
+        </div>
+        
+        <a href="https://t.me/your_telegram_channel" class="telegram-button">
+            JOIN TELEGRAM
+            <br>
+            <small>Join Now</small>
+        </a>
+    </div>
+</body>
+</html>
